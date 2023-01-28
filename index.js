@@ -1,0 +1,21 @@
+let nombre = "Jesus";
+let apellido = "Del Toro";
+let estudiante = `${nombre} ${apellido}`;
+let estudianteMayus = estudiante.toUpperCase();
+let estudianteMinus = estudiante.toLowerCase();
+let numLetras = estudiante.length;
+let primerLetra = nombre.charAt(0);
+let ultimaLetra = apellido.charAt(apellido.length-1);
+let sinEspacios = estudiante.replace(/\s/g,"");
+let nombreContenido = estudiante.includes(nombre);
+
+console.log(nombre);
+console.log(apellido);
+console.log(estudiante);
+console.log(estudianteMayus);
+console.log(estudianteMinus);
+console.log(numLetras);
+console.log(primerLetra);
+console.log(ultimaLetra);
+console.log(sinEspacios);
+console.log(nombreContenido);
